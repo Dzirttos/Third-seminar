@@ -25,6 +25,6 @@ void Check(int number)
     }
 }
 
-Console.WriteLine("Введите число: ");
+Console.WriteLine("Введите число, состоящее из пяти цифр: ");
 int number = Convert.ToInt32(Console.ReadLine());
 Check(number);
